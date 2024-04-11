@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Temperature convertor</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2 id="greeting">Welcome</h2>
+            <div class="converting">
+                <center>
+                <h1>Enter celcius to convert</h1>
+                </center>
+                </div>
+                <center>
+                    <div id="ans">
+                    <h4 class="display"></h4><br>
+                    <input  id="value">
+                    <button class="submit" onclick="onsubmitting()">submit</button></div>
+                </center>
+        </div>
+        <script>
+            var name = prompt("Enter your name");
+            document.getElementById("greeting").innerHTML="Hi "+name;
+        </script>
+        <script src="index.js"></script>
+    </body>
+</html>
